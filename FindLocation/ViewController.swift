@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func findBTN(_ sender: UIButton) {
         self.view.endEditing(true)
         if searchedTXT.text != nil && searchedTXT.text != ""{
-            let urlString:String = "https://www.google.co.in/maps/place/\(String(describing: searchedTXT.text!))/@21.1593458,72.7522561,12z/data=!3m1!4b1!4m5!3m4!1s0x3be04e59411d1563:0xfe4558290938b042!8m2!3d21.1702401!4d72.8310607"
+            let urlString:String = "https://www.google.co.in/maps/place/\(String(describing: searchedTXT.text!))"
             let mapVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mapPage") as! mapPage
             mapVC.urlString = urlString
             self.navigationController?.present(mapVC, animated: true, completion: nil)
