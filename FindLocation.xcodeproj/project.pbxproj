@@ -13,6 +13,7 @@
 		04362E7125C2B64100FAFC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04362E6F25C2B64100FAFC22 /* Main.storyboard */; };
 		04362E7325C2B64400FAFC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04362E7225C2B64400FAFC22 /* Assets.xcassets */; };
 		04362E7625C2B64400FAFC22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04362E7425C2B64400FAFC22 /* LaunchScreen.storyboard */; };
+		04362E8425C2C5C600FAFC22 /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04362E8325C2C5C600FAFC22 /* mapPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04362E7225C2B64400FAFC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04362E7525C2B64400FAFC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04362E7725C2B64400FAFC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04362E8325C2C5C600FAFC22 /* mapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				04362E6925C2B64100FAFC22 /* AppDelegate.swift */,
 				04362E6B25C2B64100FAFC22 /* SceneDelegate.swift */,
 				04362E6D25C2B64100FAFC22 /* ViewController.swift */,
+				04362E8325C2C5C600FAFC22 /* mapPage.swift */,
 				04362E6F25C2B64100FAFC22 /* Main.storyboard */,
 				04362E7225C2B64400FAFC22 /* Assets.xcassets */,
 				04362E7425C2B64400FAFC22 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				04362E6E25C2B64100FAFC22 /* ViewController.swift in Sources */,
 				04362E6A25C2B64100FAFC22 /* AppDelegate.swift in Sources */,
 				04362E6C25C2B64100FAFC22 /* SceneDelegate.swift in Sources */,
+				04362E8425C2C5C600FAFC22 /* mapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
